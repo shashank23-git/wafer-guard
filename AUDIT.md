@@ -197,3 +197,16 @@ model still has substantial limitations.
 These results demonstrate why fixing implementation bugs and using
 realistic evaluation procedures are necessary, even when the resulting
 model does not achieve high predictive performance.
+
+## 9. Independent Legacy-Record Verification
+
+The evaluator-only legacy reference CSV was used for an independent
+consistency check, not as a model input.
+
+The reference contains 146 records. All 146 correspond to records
+where `sensor_0 == 0.0` in the main dataset, and their `sensor_1`
+values match the supplied firmware codes.
+
+This confirms that the legacy-record mask identifies the reference
+records correctly. The evaluator-only file was not used for model
+training, feature selection, threshold selection, or test evaluation.
