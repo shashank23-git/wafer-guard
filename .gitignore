@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset files
+secom_telemetry_modified*.csv
+secom_legacy_mask_EVALUATOR_ONLY*.csv
+
+# Model artifacts
+*.pt
+*.pth
+*.pkl
+*.joblib
