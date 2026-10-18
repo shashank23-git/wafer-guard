@@ -1,4 +1,4 @@
-##Wafer Anomaly Detector
+## Wafer Anomaly Detector
 
 A machine learning project focused on auditing and repairing a wafer anomaly detection pipeline using SECOM manufacturing telemetry data.
 
