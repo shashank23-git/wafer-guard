@@ -1,4 +1,4 @@
-# Audit Report: WaferGuard — Wafer Anomaly Detector
+# Audit Report:Wafer Anomaly Detector
 
 ## 1. Project Overview
 
